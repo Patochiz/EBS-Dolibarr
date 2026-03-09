@@ -1,0 +1,47 @@
+# Copyright (C) 2025 Patrice GOURMELEN <pgourmelen@diamant-industrie.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# Module
+ModuleEbsimprintName = EBS Print Projects
+ModuleEbsimprintDesc = Generates EBS print project files (.prj/.prv) from Dolibarr customer orders.
+EbsImprintDescription = Generate .prj and .prv EBS files from orders
+EbsImprintDescriptionLong = This module automatically creates EBS print project files (.prj and .prv) from customer order data and the Colisage module.
+EbsImprintSetup = EBS Print Setup
+
+# Tab interface
+EbsText1Label = Text 1 (delivery contact)
+EbsProjectFolder = EBS project folder
+EbsOrderLinesWithDest = Lines with destination
+EbsNoLinesWithRef = No lines with ref_chantier defined (Colisage module required)
+EbsGenerate = Generate EBS files
+EbsRegenerate = Regenerate EBS files
+EbsDeleteFiles = Delete files
+EbsGenerating = Generating…
+EbsGeneratedFiles = Generated files
+EbsNoFilesYet = No files generated yet. Click "Generate EBS files" to create the print projects.
+EbsConfirmDelete = Are you sure you want to delete all generated EBS files for this order?
+EbsDownloadZip = Download all as ZIP
+EbsModuleNotEnabled = EBS Print module is not enabled. Please activate it in the module configuration.
+
+# Setup / Configuration
+EbsPrintHeadName = Print head
+EbsPrintHeadNameHelp = EBS print head name as defined in PrintHeads.xml
+EbsResolution = Resolution
+EbsResolutionHelp = Print resolution in DPI
+EbsPressure = Pressure
+EbsPressureHelp = Print head ink pressure
+EbsDotSize = Dot size
+EbsDotSizeHelp = Print dot size (1=small, 3=medium, 5=large)
+EbsSkipProductId = Product IDs to skip
+EbsSkipProductIdHelp = IDs of Dolibarr products used as title/section lines to ignore (comma-separated, e.g. 361)
+EbsStorageInfo = File storage
+EbsStorageDir = Storage directory
+EbsFolderFormat = Folder format
+EbsFolderFormatExample = Example
+
+# Messages
+SetupSaved = Configuration saved successfully

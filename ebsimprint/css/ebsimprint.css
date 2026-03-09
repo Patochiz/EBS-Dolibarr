@@ -1,0 +1,86 @@
+/*
+ * EBS Impression - Feuille de style
+ * Copyright (C) 2025 Patrice GOURMELEN / DIAMANT INDUSTRIE
+ */
+
+/* ── Section principale ──────────────────────────────────────────────────────── */
+.ebsimprint-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* ── Barre d'outils ──────────────────────────────────────────────────────────── */
+.ebsimprint-toolbar {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ── Zone de statut ──────────────────────────────────────────────────────────── */
+.ebsimprint-status {
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.ebsimprint-status.loading {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    color: #856404;
+}
+
+.ebsimprint-status.ok {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.ebsimprint-status.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* ── Titre de section ────────────────────────────────────────────────────────── */
+.ebs-section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #343a40;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 6px;
+}
+
+/* ── Badges de ligne de commande ─────────────────────────────────────────────── */
+.ebs-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px;
+    background: #e7f3ff;
+    border: 1px solid #b8daff;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-family: monospace;
+    color: #004085;
+    white-space: nowrap;
+}
+
+/* ── Tableau des fichiers ─────────────────────────────────────────────────────── */
+#ebs-files-table td {
+    vertical-align: middle;
+}
+
+/* ── Boutons d'action ────────────────────────────────────────────────────────── */
+#btn-ebs-generate,
+#btn-ebs-delete,
+#btn-download-zip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}

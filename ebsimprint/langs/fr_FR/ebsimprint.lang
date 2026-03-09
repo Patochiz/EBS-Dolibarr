@@ -1,0 +1,47 @@
+# Copyright (C) 2025 Patrice GOURMELEN <pgourmelen@diamant-industrie.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+
+# Module
+ModuleEbsimprintName = EBS Impression
+ModuleEbsimprintDesc = Génère les fichiers de projets d'impression EBS (.prj/.prv) depuis les commandes clients Dolibarr.
+EbsImprintDescription = Génération de fichiers .prj et .prv EBS depuis les commandes
+EbsImprintDescriptionLong = Ce module crée automatiquement les fichiers de projets d'impression EBS (.prj et .prv) à partir des données des commandes clients et du module Colisage.
+EbsImprintSetup = Configuration EBS Impression
+
+# Interface onglet
+EbsText1Label = Texte 1 (contact livraison)
+EbsProjectFolder = Dossier projet EBS
+EbsOrderLinesWithDest = Lignes avec destination
+EbsNoLinesWithRef = Aucune ligne avec ref_chantier définie (module Colisage requis)
+EbsGenerate = Générer les fichiers EBS
+EbsRegenerate = Regénérer les fichiers EBS
+EbsDeleteFiles = Supprimer les fichiers
+EbsGenerating = Génération en cours
+EbsGeneratedFiles = Fichiers générés
+EbsNoFilesYet = Aucun fichier généré. Cliquez sur "Générer les fichiers EBS" pour créer les projets d'impression.
+EbsConfirmDelete = Êtes-vous sûr de vouloir supprimer tous les fichiers EBS générés pour cette commande ?
+EbsDownloadZip = Télécharger tout en ZIP
+EbsModuleNotEnabled = Module EBS Impression non activé. Veuillez l'activer dans la configuration des modules.
+
+# Setup / Configuration
+EbsPrintHeadName = Tête d'impression
+EbsPrintHeadNameHelp = Nom de la tête d'impression EBS telle que définie dans PrintHeads.xml
+EbsResolution = Résolution
+EbsResolutionHelp = Résolution d'impression en DPI (points par pouce)
+EbsPressure = Pression
+EbsPressureHelp = Pression d'encrage de la tête d'impression
+EbsDotSize = Taille des points
+EbsDotSizeHelp = Taille des points d'impression (1=petit, 3=moyen, 5=grand)
+EbsSkipProductId = IDs produits à ignorer
+EbsSkipProductIdHelp = IDs des produits Dolibarr correspondant aux lignes de titre/section à ignorer (séparés par virgule, ex: 361)
+EbsStorageInfo = Stockage des fichiers
+EbsStorageDir = Dossier de stockage
+EbsFolderFormat = Format du dossier
+EbsFolderFormatExample = Exemple
+
+# Messages
+SetupSaved = Configuration sauvegardée avec succès
